@@ -18,7 +18,7 @@ const app = express()
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin",
-        "*");
+        "https://cs4550-sp20-whiteboard-angular.herokuapp.com");
     res.header("Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept");
     res.header("Access-Control-Allow-Methods",
